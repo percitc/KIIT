@@ -1,0 +1,61 @@
+# ══════════════════════════════════════════════════════════════════
+# KITT — Dependencias
+# Instala con:  pip install -r requirements.txt
+# (Windows: además descomenta el bloque "Solo Windows" al final)
+# ══════════════════════════════════════════════════════════════════
+
+# --- IA / Gemini ---
+google-genai>=0.3.0
+
+# --- Audio ---
+sounddevice
+scipy
+pydub
+
+# --- Interfaz gráfica ---
+pyqt6
+
+# --- Visión / captura de pantalla / imágenes ---
+pillow
+opencv-python
+mss
+numpy
+
+# --- Automatización de escritorio y control de entrada ---
+pyautogui
+pyperclip
+
+# --- Red / búsqueda web / scraping ---
+requests
+beautifulsoup4
+playwright
+ddgs                 # buscador DuckDuckGo (nombre de paquete actual)
+duckduckgo-search     # respaldo por si "ddgs" no está disponible
+
+# --- Sistema de archivos ---
+psutil
+send2trash
+
+# --- Documentos y hojas de cálculo (lectura/creación) ---
+python-pptx
+python-docx
+openpyxl
+pandas
+PyPDF2
+pdfplumber
+
+# --- YouTube ---
+youtube-transcript-api
+
+# --- Configuración ---
+python-dotenv
+
+# ══════════════════════════════════════════════════════════════════
+# Solo Windows — descomenta estas líneas si usas Windows
+# (controlan volumen del sistema, ventanas, notificaciones, Office COM)
+# ══════════════════════════════════════════════════════════════════
+# pygetwindow
+# pywinauto
+# pycaw
+# win10toast
+# comtypes
